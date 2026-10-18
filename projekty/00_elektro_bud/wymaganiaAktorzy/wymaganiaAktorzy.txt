@@ -1,0 +1,25 @@
+Wymagania funkcjonalne:
+WF1 – Logowanie i uwierzytelnianie użytkowników
+WF2 – Wyszukiwanie produktów i identyfikacja ich lokalizacji
+WF3 – Rejestracja przyjęcia towaru na magazyn
+WF4 – Rejestracja wydania towaru z magazynu
+WF5 – Weryfikacja i blokada wydania ponad stan magazynowy
+WF6 – Obsługa współbieżności i transakcyjności
+WF7 – Podgląd i monitorowanie stanów magazynowych
+WF8 – Zarządzanie kontami użytkowników
+WF9 – Obsługa odzyskiwania haseł
+WF10 – Generowanie raportów i analiz magazynowych
+
+Wymagania niefunkcjonalne:
+
+WNF1 – Czas reakcji i wydajność
+WNF2 – Bezpieczeństwo i ochrona danych uwierzytelniających
+WNF3 – Kontrola dostępu oparta na rolach (RBAC)
+WNF4 – Dostęp zdalny dla kadry zarządzającej
+WNF5 – Ergonomia i użyteczność interfejsu
+
+Aktorzy:
+
+Pracownik sklepu – odpowiada za obsługę towaru: wyszukuje produkty, sprawdza ich lokalizację, przyjmuje dostawy oraz wydaje towary do zamówień.
+Kierownik sklepu – odpowiada za zarządzanie sklepem: dodaje nowe pozycje do bazy danych, zarządza danymi oraz generuje raporty.
+Administrator – odpowiada za utrzymanie systemu: zakłada i edytuje konta użytkowników, zarządza uprawnieniami oraz resetuje hasła.
