@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sklep Elektro-Bud</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <h1>Elektro Bud Magazyn</h1>
+
+  <form id="towar-form">
+    <label>Nazwa towaru: <input type="text" id="input-nazwa" required></label>
+    <label>Ilość sztuk: <input type="number" id="input-ilosc" min="0" required></label>
+    <button type="submit">Zapisz</button>
+  </form>
+
+  <h2>Aktualny stan</h2>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Nazwa</th>
+        <th>Ilość</th>
+        <th>Akcje</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-body"></tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
